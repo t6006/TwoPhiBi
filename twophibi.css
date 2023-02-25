@@ -1,0 +1,83 @@
+body {
+    background-color: white;
+}
+
+.layer0 {
+    z-index: 0;
+}
+
+.layerd1 {
+    z-index: -1;
+}
+
+.layerd2 {
+    z-index: -2;
+}
+
+.layerd3 {
+    z-index: -3;
+}
+
+.layerd4 {
+    z-index: - 4;
+}
+
+.layerd5 {
+    z-index: -5;
+}
+
+.layer1 {
+    z-index: 1;
+}
+
+.layer2 {
+    z-index: 2;
+}
+
+.layer3 {
+    z-index: 3;
+}
+
+.layer4 {
+    z-index: 4;
+}
+
+.layer5 {
+    z-index: 5;
+}
+
+a:link {
+    color: aqua;
+    text-decoration: none;
+}
+
+a:visited {
+    color: greenyellow;
+    text-decoration: none;
+}
+
+a:hover {
+    color: palevioletred;
+    text-decoration: none;
+}
+
+a:active {
+    color: aquamarine;
+    text-decoration: none;
+}
+
+
+/* Text on Image */
+
+.image_container {
+    position: relative;
+}
+
+.image_small_info {
+    position: absolute;
+    left: 16px;
+    bottom: 16px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+}
