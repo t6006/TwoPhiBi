@@ -46,13 +46,16 @@ body {
     z-index: 5;
 }
 
+
+/* link */
+
 a:link {
-    color: aqua;
+    color: blue;
     text-decoration: none;
 }
 
 a:visited {
-    color: greenyellow;
+    color: green;
     text-decoration: none;
 }
 
@@ -62,12 +65,12 @@ a:hover {
 }
 
 a:active {
-    color: aquamarine;
+    color: blue;
     text-decoration: none;
 }
 
 
-/* Text on Image */
+/* Image_container */
 
 .image_container {
     position: relative;
@@ -77,6 +80,51 @@ a:active {
     position: absolute;
     left: 16px;
     bottom: 16px;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+}
+
+.image_medium_info {
+    position: absolute;
+    left: 16px;
+    bottom: 44px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+}
+
+.image_bottom_left_sminfo {
+    position: absolute;
+    left: 16px;
+    bottom: 16px;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+}
+
+.image_bottom_left_mdinfo {
+    position: absolute;
+    left: 16px;
+    bottom: 44px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+}
+
+.image_top_right_sminfo {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+}
+
+.image_top_right_mdinfo {
+    position: absolute;
+    right: 16px;
+    top: 44px;
     font-size: 18px;
     background-color: black;
     color: white;
